@@ -1,15 +1,15 @@
 /*
 [Script]
-flushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/flushDNS.js
+𝑫𝑵𝑺 𝑭𝒍𝒖𝒔𝒉 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/flushDNS.js
 // use "title" or "icon" or "color" or "server" in "argument":
-// flushDNS = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/flushDNS.js,argument=title=DNS FLush&icon=arrow.clockwise&color=#3d3d5b&server=false
+// 𝑫𝑵𝑺 𝑭𝒍𝒖𝒔𝒉 = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/flushDNS.js,argument=title=DNS FLush&icon=arrow.clockwise&color=#3d3d5b&server=false
 
 [Panel]
-flushDNS = script-name=flushDNS,update-interval=600
+𝑫𝑵𝑺 𝑭𝒍𝒖𝒔𝒉  = script-name=flushDNS,update-interval=600
 */
 
 !(async () => {
-    let panel = { title: "Flush DNS" },
+    let panel = { title: "𝑫𝑵𝑺 𝑭𝒍𝒖𝒔𝒉 " },
         showServer = true,
         dnsCache;
     if (typeof $argument != "undefined") {
