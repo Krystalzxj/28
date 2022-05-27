@@ -9,7 +9,7 @@ flushDNS = script-name=flushDNS,update-interval=600
 */
 
 !(async () => {
-    let panel = { title: "Flush DNS" },
+    let panel = { title: "𝑭𝒍𝒖𝒔𝒉 𝑫𝑵𝑺" },
         showServer = true,
         dnsCache;
     if (typeof $argument != "undefined") {
